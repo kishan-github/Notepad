@@ -18,6 +18,13 @@ public:
     // Destructor
     ~MainWindow();
 
+private slots:
+    void on_actionCut_triggered();
+
+    void on_actionCopy_triggered();
+
+    void on_actionPaste_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
